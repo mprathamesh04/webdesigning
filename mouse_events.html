@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv" style="width: 200px; height: 100px; background-color: blanchedalmond;">
+    Hover over me
+    </div>
+    <script>
+        const mydiv=document.getElementById('mydiv');
+
+        function handleMouseOver()
+        {
+            mydiv.style.backgroundColor='green';
+        }
+        function handleMouseOut()
+        {
+            mydiv.style.backgroundColor='red';
+        }
+        mydiv.addEventListener('mouseover', handleMouseOver)
+        mydiv.addEventListener('mouseout', handleMouseOut)
+    </script>
+</body>
+</html>

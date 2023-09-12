@@ -1,0 +1,10 @@
+var a=10;
+var b=2.98;
+var c="hello@1";
+var d=true;
+var e;
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
